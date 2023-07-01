@@ -1,0 +1,18 @@
+#!/bin/sh
+set -e
+
+#DEBHELPER#
+
+case $1 in
+    remove)
+		firmware="/lib/firmware/"
+		userdata="/userdata/"
+        conflicts="$firmware/rtlbt/rtl8822cs_fw $firmware/rtlbt/rtl8822cs_config $userdata/rk3399-vaaman/uboot.img $userdata/rk3399-vaaman/trust.img $userdata/rk3399-vaaman/idblock.bin $userdata/rk3399-vaaman/setup.sh"
+        for i in $conflicts
+        do
+            dpkg-divert --package vicharak-firmware --rename --remove "$i"
+        done
+        ;;
+esac
+
+exit 0

@@ -1,0 +1,17 @@
+Source: vicharak-firmware
+Maintainer: "UtsavBalar1231" <utsavbalar1231@gmail.com>
+Section: misc
+Priority: optional
+Standards-Version: 4.6.0
+Build-Depends: debhelper (>=12~),
+               devscripts,
+               lintian,
+
+Package: vicharak-firmware
+Architecture: all
+Section: misc
+Priority: optional
+Depends: ${misc:Depends},
+Description: Vicharak Custom Linux firmware
+ This package contains firmwares that are not
+ shipped by Debian.
