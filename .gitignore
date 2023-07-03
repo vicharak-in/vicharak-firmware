@@ -1,4 +1,5 @@
 /.vscode*
 debian/vicharak-firmware
+out/
 /SOURCE
 /VERSION
