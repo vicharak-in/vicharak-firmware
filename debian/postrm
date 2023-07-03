@@ -1,18 +1,29 @@
 #!/bin/sh
 set -e
 
-#DEBHELPER#
-
 case $1 in
-    remove)
-		firmware="/lib/firmware/"
-		userdata="/userdata/"
-        conflicts="$firmware/rtlbt/rtl8822cs_fw $firmware/rtlbt/rtl8822cs_config $userdata/rk3399-vaaman/uboot.img $userdata/rk3399-vaaman/trust.img $userdata/rk3399-vaaman/idblock.bin $userdata/rk3399-vaaman/setup.sh"
-        for i in $conflicts
-        do
-            dpkg-divert --package vicharak-firmware --rename --remove "$i"
-        done
-        ;;
+remove)
+	firmware="/lib/firmware"
+	uboot="/lib/u-boot"
+
+	files="
+	$firmware/rockchip/dptx.bin \
+	$firmware/rtl_bt/rtl8822cs_config.bin \
+	$firmware/rtl_bt/rtl8822cs_fw.bin \
+	$firmware/rtlbt/rtl8822cs_config \
+	$firmware/rtlbt/rtl8822cs_fw \
+	$firmware/rtw88/rtw8822c_fw.bin \
+	$firmware/rtw88/rtw8822c_wow_fw.bin \
+	$uboot/rk3399-vaaman/idblock.bin \
+	$uboot/rk3399-vaaman/setup.sh \
+	$uboot/rk3399-vaaman/trust.img
+	$uboot/rk3399-vaaman/uboot.img \
+	"
+
+	for i in $files; do
+		dpkg-divert --package vicharak-firmware --rename --remove "$i"
+	done
+	;;
 esac
 
 exit 0

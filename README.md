@@ -5,6 +5,8 @@
 Custom linux firmware which is not shipped by Debian
 
 ## Contents
-- Rockchip CDN DP firmware (firmware/rockchip).
-- RTL8822CS bluetooth firmware (firmware/rtlbt).
-- Vendor U-Boot binaries (rk3399-vaaman/).
+- Rockchip CDN DP firmware [dptx](firmware/rockchip).
+- RTL8822CS bluetooth firmware [rtl8822cs](firmware/rtlbt).
+- Mainline RTL8822cs bluetooth firmware [rtl8822cs](firmware/rtl_bt).
+- Mainline RTW 8822CS SDIO Wi-Fi firmware [rtw_8822c](firmware/rtw88).
+- Vendor U-Boot binaries [u-boot](u-boot/rk3399-vaaman/).
