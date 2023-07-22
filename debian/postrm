@@ -4,7 +4,6 @@ set -e
 case $1 in
 remove)
 	firmware="/lib/firmware"
-	uboot="/lib/u-boot"
 
 	files="
 	$firmware/rockchip/dptx.bin \
@@ -14,10 +13,6 @@ remove)
 	$firmware/rtlbt/rtl8822cs_fw \
 	$firmware/rtw88/rtw8822c_fw.bin \
 	$firmware/rtw88/rtw8822c_wow_fw.bin \
-	$uboot/rk3399-vaaman/idblock.bin \
-	$uboot/rk3399-vaaman/setup.sh \
-	$uboot/rk3399-vaaman/trust.img
-	$uboot/rk3399-vaaman/uboot.img \
 	"
 
 	for i in $files; do
