@@ -1,3 +1,9 @@
+vicharak-firmware (0.1.3) UNRELEASED; urgency=medium
+
+  * vicharak-firmware: Add realtek rtl8852bs bt firmware
+
+ -- shailparmar03 <shailparmar26@gmail.com>  Thu, 16 May 2024 14:30:27 +0530
+
 vicharak-firmware (0.1.2) focal; urgency=medium
 
   [ UtsavBalar1231 ]
