@@ -13,6 +13,8 @@ remove)
 	$firmware/rtlbt/rtl8822cs_fw \
 	$firmware/rtw88/rtw8822c_fw.bin \
 	$firmware/rtw88/rtw8822c_wow_fw.bin \
+	$firmware/rtlbt/rtl8852bs_config \
+	$firmware/rtlbt/rtl8852bs_fw \
 	"
 
 	for i in $files; do

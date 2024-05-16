@@ -8,5 +8,6 @@ Custom linux firmware which is not shipped by Debian
 
 - Rockchip CDN DP firmware [dptx](firmware/rockchip).
 - RTL8822CS bluetooth firmware [rtl8822cs](firmware/rtlbt).
+- RTL8852BS bluetooth firmware [rtl8852bs](firmware/rtlbt).
 - Mainline RTL8822cs bluetooth firmware [rtl8822cs](firmware/rtl_bt).
 - Mainline RTW 8822CS SDIO Wi-Fi firmware [rtw_8822c](firmware/rtw88).
