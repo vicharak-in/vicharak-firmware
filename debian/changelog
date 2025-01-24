@@ -1,3 +1,9 @@
+vicharak-firmware (0.1.4) UNRELEASED; urgency=medium
+
+  * vicharak-firmware : Update realtek rtl8852bs bt firmware
+
+ -- avi951 <avi951@avi951.avi951>  Fri, 24 Jan 2025 16:17:24 +0530
+
 vicharak-firmware (0.1.3) UNRELEASED; urgency=medium
 
   * vicharak-firmware: Add realtek rtl8852bs bt firmware
