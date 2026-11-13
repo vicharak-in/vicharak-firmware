@@ -6,6 +6,18 @@ Files: *
 Copyright: © 2023 Vicharak Computers LLP
 License: GPL-3+
 
+Files: firmware/fw_syn43756b0_sdio.bin
+       firmware/clm_syn43756b0.blob
+       firmware/nvram_ap6276s.txt
+       firmware/brcm/SYN43756B0.vicharak,rk3588-vaaman2.hcd
+       firmware/brcm/SYN43756B0.hcd
+Copyright: © Synaptics Incorporated / Ampak Technology Inc.
+License: Synaptics-firmware-proprietary
+ Redistributed firmware for the Synaptics SYN43756B0 (Ampak AP6276S)
+ module, provided by Ampak for Vicharak boards. Not shipped by Debian
+ because it is under a proprietary license; use subject to the vendor's
+ firmware license agreement.
+
 License: GPL-3+
  This program is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by

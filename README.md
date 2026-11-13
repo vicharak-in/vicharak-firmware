@@ -11,3 +11,5 @@ Custom linux firmware which is not shipped by Debian
 - RTL8852BS bluetooth firmware [rtl8852bs](firmware/rtlbt).
 - Mainline RTL8822cs bluetooth firmware [rtl8822cs](firmware/rtl_bt).
 - Mainline RTW 8822CS SDIO Wi-Fi firmware [rtw_8822c](firmware/rtw88).
+- Ampak AP6276S Wi-Fi firmware (SYN43756B0) [ap6276s](firmware).
+- Ampak AP6276S bluetooth firmware (SYN43756B0) [brcm](firmware/brcm).
