@@ -17,6 +17,11 @@ install | upgrade)
 	$firmware/rtw88/rtw8822c_wow_fw.bin \
 	$firmware/rtlbt/rtl8852bs_config \
 	$firmware/rtlbt/rtl8852bs_fw \
+	$firmware/fw_syn43756b0_sdio.bin \
+	$firmware/clm_syn43756b0.blob \
+	$firmware/nvram_ap6276s.txt \
+	$firmware/brcm/SYN43756B0.vicharak,rk3588-vaaman2.hcd \
+	$firmware/brcm/SYN43756B0.hcd \
 	"
 
 	for i in $files; do

@@ -1,3 +1,9 @@
+vicharak-firmware (0.1.5) UNRELEASED; urgency=medium
+
+  * vicharak-firmware: Add Ampak AP6276S (SYN43756B0) WiFi and Bluetooth firmware
+
+ -- Vivek Ray <vk092kumar@gmail.com>  Fri, 13 Nov 2026 14:40:00 +0530
+
 vicharak-firmware (0.1.4) UNRELEASED; urgency=medium
 
   * vicharak-firmware : Update realtek rtl8852bs bt firmware
